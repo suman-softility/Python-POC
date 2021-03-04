@@ -26,6 +26,3 @@ class Result(db.Model):
             search = '%{}%'.format(urlFilter)
             return Result.query.filter(Result.url.like(search)).all()
         return Result.query.all()
-
-    def __repr__(self):
-        return '<id {}>'.format(self.id)

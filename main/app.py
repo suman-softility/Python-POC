@@ -10,5 +10,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 app.register_blueprint(wordCountBluePrint.bp)
 db.init_app(app)
 
+
 if __name__ == '__main__':
     app.run()
