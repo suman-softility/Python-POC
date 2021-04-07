@@ -32,3 +32,9 @@ Then click the ‘Models’ tab and select ‘punkt’ under the ‘Identifier�
 python app.py
 ```
 On running this command the server will start at `http://localhost:5000/`
+
+## Run tests.
+```
+pytest
+```
+Run this command to run the tests.
